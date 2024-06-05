@@ -1,0 +1,61 @@
+[
+    {
+      "id": "username",
+      "name": "username",
+      "type": "text",
+      "label": "Username",
+      "required": true,
+      "regex": "^[a-zA-Z0-9]+$"
+    },
+    {
+      "id": "password",
+      "name": "password",
+      "type": "password",
+      "label": "Password",
+      "required": true
+    },
+    {
+      "id": "gender",
+      "name": "gender",
+      "type": "radio",
+      "label": "Gender",
+      "required": true,
+      "options": [
+        {
+          "label": "Male",
+          "value": "male"
+        },
+        {
+          "label": "Female",
+          "value": "female"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "name": "skills",
+      "type": "select",
+      "label": "Skills",
+      "required": true,
+      "multiSelect": true,
+      "options": [
+        {
+          "label": "JavaScript",
+          "value": "javascript"
+        },
+        {
+          "label": "React",
+          "value": "react"
+        }
+      ]
+    },
+    {
+      "id": "profilePicture",
+      "name": "profilePicture",
+      "type": "file",
+      "label": "Profile Picture",
+      "required": false,
+      "fileFormatSupported": ["image/jpeg", "image/png"]
+    }
+  ]
+  
